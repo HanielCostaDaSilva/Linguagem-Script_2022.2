@@ -19,6 +19,7 @@ function inserirValores(ArquivoJson){
             ESTADO.value= ArquivoJson.uf
             CIDADE.value=ArquivoJson.localidade
             RUA.value=ArquivoJson.logradouro
+            BAIRRO.value=ArquivoJson.bairro
         }
 
         else{ //O usuario não digitou o valor certo
@@ -53,6 +54,7 @@ function limparFormulario(){
     CIDADE.value=''
     RUA.value=''
     NUMERO.value=''
+    BAIRRO.value=''
 
 }
 
